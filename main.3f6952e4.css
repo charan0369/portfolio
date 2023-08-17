@@ -3399,6 +3399,12 @@ tbody.collapse.in {
   }
 }
 
+@media (max-width: 450px){
+  .white-text-container h1{
+    font-size: 5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .nav-justified > li,
   .nav-tabs.nav-justified > li {
