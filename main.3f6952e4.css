@@ -3391,6 +3391,14 @@ tbody.collapse.in {
   top: auto;
   left: auto;
 }
+
+
+@media (max-width: 350px){
+  .white-text-container h1{
+    font-size: 4.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .nav-justified > li,
   .nav-tabs.nav-justified > li {
@@ -3930,7 +3938,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
   background-color: #333;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
@@ -4791,6 +4799,7 @@ body.minimal {
   text-align: end;
   /*mix-blend-mode: overlay;*/
 }
+
 .white-text-container a {
   color: #000000;
 }
@@ -5101,7 +5110,7 @@ textarea {
 .navbar-default .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-  background-color: #fff;
+  background-color: #ffffff00;
 }
 @media (min-width: 768px) {
   .navbar-inverse .navbar-nav > li > a {
@@ -5135,7 +5144,7 @@ textarea {
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-  background-color: #fff;
+  background-color: #ffffff00;
 }
 @media (max-width: 768px) {
   .navbar-inverse {
@@ -5197,4 +5206,3 @@ textarea {
   margin-right: 5px;
 }
 /*# sourceMappingURL=main.70a66962.map*/
- 
